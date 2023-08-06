@@ -1,0 +1,645 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+}
+
+.background
+{
+    width: 100%;
+    background: #222;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mynames
+{
+  padding: 250px 0px 0 80px;
+  color: white;
+}
+
+.mynames h3
+{
+    font-size: 32px;
+    font-weight: 700;
+    animation: slide-y 1s 2;
+    text-shadow: 0 5px 5px cyan;
+}
+.mynames h1
+{
+   font-size: 50px;
+   font-weight: 700;
+   margin: 5px 0px px 0px;
+   animation: slide-x 1s 2;
+
+}
+.mynames p
+{
+    font-size: 20px;
+    text-shadow: 0 5px 5px cyan;
+    margin: 10px 0 0 0;
+    animation: slide-x 1s 2;
+}
+.icons a
+{
+    margin: 30px 15px 30px 0;
+    height: 50px;
+    width: 50px;
+    background:transparent;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 2px solid #0ef;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0ef;
+    animation: slide-xy 1s 2;
+}
+.icons a:hover
+{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn
+{
+    display: block;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    background: #0ef;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    margin: 10px 0px 200px 0px;
+    animation: slide-y-down 1s 2;
+}
+.btn:hover
+{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan
+    
+}
+.my-img
+{
+    height: 400px;
+    width: 400px;
+    background: url(../img/IMG_20220426_135442_147.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #0ef;
+    animation: my-img-shadow 3s infinite;
+    margin: 210px 0 210px 50px;
+    transition: 1s;
+    
+}
+.my-img:hover
+{
+    transform:rotate(360deg);
+    background: url(../img/WhatsApp\ Image\ 2023-07-15\ at\ 20.08.43.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+.background2
+{
+    display: flex;
+    background: #222;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+
+}
+
+.my-img2
+{
+    width: 50%;
+    animation: infinite;
+
+}
+.my-img2 .my-img
+{
+    margin: 10px auto;
+    border: none;
+
+}
+.about
+{
+    width: 50%;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about h2
+{
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.about h2 span
+{
+    color: #0ef;
+    text-shadow: 0 0 5px blue;
+}
+.about h1{padding-left: 15px;}
+.about p
+{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.about p:hover
+{
+    color: #ff2770;
+}
+
+
+
+
+.background3
+{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #222;
+    padding: 100px;
+}
+.background3 h1
+{
+    text-align: center;
+    font-size: 50px;
+    /* animation: slide-x 1s 2; */
+}
+.languages
+{
+    margin: 50px auto;
+    width: 40%;
+    background: #222;
+    box-shadow: 0px 0px 25px blue;
+    padding: 50px;
+    border-radius: 15px;
+    animation: languages-shadow 5s infinite; 
+}
+.background3 .border
+{ 
+    height: 5px;
+    width: 100%;
+    background: white;
+    margin: 10px 0px 20px 0px;
+    border-radius: 100px;
+    position: relative;
+}
+.html p i
+{
+    background: blue;
+    font-size: 30px;
+}
+.html p span
+{
+    padding-left: 85%;
+}
+.border::after
+{
+    content: "";
+    height:5px;
+    width: 90%;
+    background: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+.background4
+{
+    background: #222;
+
+}
+.background4 h1
+{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 span
+{
+    color: #0ef;
+    font-size: 60px;
+    font-weight: 800;
+}
+.border-rotate-main1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+
+
+.border-rotate-main
+{
+    border: 2px solid gray;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px 0 100px 70px;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.border-rotate
+{
+    background:#222;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.border-rotate::before
+{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(0deg,transparent,transparent,#0ef,#0ef,#0ef);
+    transform-origin: bottom right;
+    animation: box 6s linear infinite;
+}
+.border-rotate::after
+{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(0deg,transparent,transparent,#0ef,#0ef,#0ef);
+    transform-origin: bottom right;
+    animation: box 6s linear infinite;
+    animation-delay: -3s;
+}
+.box-rotate1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.border-rotate1::before
+{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    transform-origin: bottom right;
+    animation: box 6s linear infinite;
+    animation-delay: -1.5s;
+}
+.border-rotate1::after
+{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    transform-origin: bottom right;
+    animation: box 6s linear infinite;
+    animation-delay: -4.5s;
+}
+.box
+{
+    height: 390px;
+    width: 340px;
+    background: #222;
+     border-radius: 10px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    color: white;
+    color: #0ef;
+    animation: font-color 3s infinite;
+}
+.box h2
+{
+
+    box-shadow:0 0 10px yellow;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20%;
+    animation: my-img-shadow 3s infinite;
+}
+.box p
+{
+  padding: 35px 0 0 10px;
+  font-size: 20px;
+  
+}
+
+
+
+
+
+.projects
+{
+    width: 100%;
+    background: #222;
+     color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.projects h1
+{
+    font-size: 50px;
+    text-align: center;
+
+}
+.my-project
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0 0px 0px;
+}
+.project-1-main
+{
+    height: 300px;
+    width:250px ;
+    box-shadow: 0 0 20px #0ef;
+    margin: 30px 50px 50px 120px;
+}
+.project-1-main:hover
+{
+    box-shadow: 0 0 20px #ff2770;
+}
+.project1
+{
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    background: url(../img/WhatsApp\ Image\ 2023-07-09\ at\ 16.51.12.jpg);
+    background-size: contain;
+    overflow: hidden;
+    position: relative;  
+}
+.project1 i
+{
+    font-size: 100px;
+    color: yellow;
+    padding: 50px 40px 50px 70px;
+}
+.project2hover
+{
+    height: 200px;
+    width: 250px;
+    background:#222;
+    position: absolute;
+    top:100%;
+    right: 0;
+    transform: 2s;
+
+}
+.project1:hover .project2hover
+{
+    top: 0%;
+}
+.my-project p
+{
+    height: 100px;
+    width: 250px;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 0 0 10px #ff2770;
+}
+.my-project p:hover
+{
+    color: #ff2770;
+    text-shadow: 0 0 10px #0ef;
+}
+
+
+.project2
+{
+    
+    background: url(../img/WhatsApp\ Image\ 2023-07-09\ at\ 16.51.13.jpg);
+
+}
+.project3
+{
+    
+    background: url(../img/WhatsApp\ Image\ 2023-07-15\ at\ 19.41.49.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.my-info
+{
+    background: #222;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.my-info h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+.contact,.inputs
+{
+    width: 50%;
+}
+.contact p
+{
+  height: 50px;
+  width: 400px;
+  background: white;
+  border-radius: 40px;
+  padding-left: 10px;
+  line-height: 50px;
+  color: black;
+  margin:20px auto;
+  font-size: 20px;
+  
+}
+.contact p:hover
+{
+    color: white;
+    background: #222;
+    box-shadow: 0 0 10px #ff2770;
+}
+.contact p i
+{
+    font-size: 22px;
+    color: blue;
+
+}
+.contact p span
+{
+    font-weight: 800;
+    color: blue;
+}
+.input1
+{
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    width:350px ;
+    margin: 0px auto 100px auto;
+    box-shadow: 0 0 13px #0ef
+
+}
+.input1:hover
+{
+    box-shadow: 0 0 13px #ff2770;
+}
+.input1 p
+{
+    padding: 10px;
+    font-size: 22px;
+    
+}
+.input1 input
+{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 40px;
+}
+input:focus
+{
+    outline: none;
+    border: 2PX solid cyan;
+    color: #ff2770;
+    font-size: 20px;
+}
+.message
+{
+    height: 50px;
+    width: 180px;
+    background: #0ef;
+    margin: 30px 0px;
+    border-radius: 40px;
+    line-height: 30px;
+    color: white;
+   
+}
+@keyframes slide-y
+{
+    0%{transform: translateY(-200px);
+      opacity: 0;
+    }
+    100%{transform: translateY(0px);
+        opacity: 1;
+      }
+}
+@keyframes slide-y-down
+{
+    0%{transform: translateY(200px);
+      opacity: 0;
+    }
+    100%{transform: translateY(0px);
+        opacity: 1;
+      }
+}
+@keyframes slide-x
+{
+    0%{transform: translatex(-200px);
+      opacity: 0;
+    }
+    100%{transform: translatex(0px);
+        opacity: 1;
+      }
+}
+@keyframes slide-xy
+{
+    0%{transform: translatex(200px);
+      opacity: 0;
+    }
+    100%{transform: translatex(0px);
+        opacity: 1;
+      }
+}
+@keyframes my-img-shadow
+{
+    0%{box-shadow: 0 0 50px #0ef;border: 3px solid red;}
+    10%{box-shadow: 0 0 50px red;border: 3px solid #0ef;}
+    20%{box-shadow: 0 0 50px #0ef;border: 3px solid red;}
+    40%{box-shadow: 0 0 50px red;border: 3px solid #0ef;}
+    60%{box-shadow: 0 0 50px #0ef;border: 3px solid red;}
+    80%{box-shadow: 0 0 50px red;border: 3px solid #0ef;}
+    100%{box-shadow: 0 0 50px #0ef;border: 3px solid red;}
+
+}
+@keyframes font-color
+{
+    0%{color: #0ef;}
+    10%{color:yellow;}
+    20%{color:#0ef;}
+    40%{color:red;}
+    60%{color:#0ef;}
+    80%{color: green;}
+    100%{color:#0ef;}
+
+}
+@keyframes languages-shadow
+{
+    0%{box-shadow: 0 0 50px blue;}
+    10%{box-shadow: 0 0 50px red;}
+    20%{box-shadow: 0 0 50px blue;}
+    40%{box-shadow: 0 0 50px red;}
+    60%{box-shadow: 0 0 50px blue;}
+    80%{box-shadow: 0 0 50px red;}
+    100%{box-shadow: 0 0 50px blue;}
+
+}
+@keyframes box
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}

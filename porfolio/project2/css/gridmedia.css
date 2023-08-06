@@ -1,0 +1,108 @@
+@media (max-width:1000px)
+{
+
+.header
+{
+    grid-template-columns: 1fr;
+}
+.hidenav
+{
+    opacity: 1;
+}
+.header2
+{
+    display: none;
+}
+
+}
+
+
+
+
+@media (max-width:500px)
+{
+
+    .car-detail{padding: 70px 0px 100px 10px;}
+    .car-detail h1{font-size: 50px;}
+    .hfcc{grid-template-columns: 1fr;width: 80%;margin: 10px 0 0 48px;}
+
+
+  .inputs
+{
+    grid-template-columns: 1fr;
+    margin-top: 165px;
+}
+
+    .input1 .margin{margin-left: 15px;}
+    .serchbtn{margin: 20px 0 20px 20px;}
+
+
+
+
+    .hotel{width: 90%;}
+    .doller{padding: 0 0 0px 0;}
+    .view-part .myview{margin-top: 30px;}
+    .book-part .mybook{margin-top: 30px;}
+    .hotel-imgs
+    {
+        grid-template-columns: 1fr;
+        
+    }
+
+
+
+    .img-scales{width: 90%;}
+    .img-scale-hover{margin-top: 30px;}
+    .img-scale-hover,.img-scale-part2
+    {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+
+
+
+    .recomanded-flights{width: 90%;}
+.ship-review
+{
+    padding: 20px 0px 20px 0px;
+}
+.book-margin{margin-bottom: -20px;}
+.imagescales-2{width: 90%;}
+.image-scale-our-service
+{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.image-scale-5
+{
+    grid-template-columns: 5fr;
+}
+.img-scale-part1
+{
+    line-height: 950px;
+}
+
+
+
+.our-blog{width: 90%;}
+.our-blog-images{grid-template-columns: 1fr;}
+p .padding{padding-left: 160px;}
+    
+
+.our-partners{width: 90%;}
+.lenvato{grid-template-columns: 1fr 1fr 1fr;column-gap: 4px;}
+.lenvato2{display: none;}
+.lenvato1{height: 130px;width: 130px;}
+
+
+
+.footer{grid-template-columns: 1fr;width: 90%;}
+
+
+
+.flight-imgs
+{
+    grid-template-columns: 1fr;
+}
+}

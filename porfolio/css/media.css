@@ -1,0 +1,24 @@
+@media (max-width:1080px)
+
+{
+    .mynames{padding: 100px 20px;}
+    .mynames .btn{margin: 10px 0px;}
+    .my-img{margin: 30px auto 90px auto;}
+
+    .my-img2,.about{width: 100%;}
+    .about{margin-top: 50px;}
+
+
+    .background3{padding: 20px 0 70px 0;}
+    .languages{width: 90%;}
+
+
+    .border-rotate-main1{grid-template-columns: 1fr;}
+
+    .my-project{grid-template-columns: 1fr;}
+    .project-1-main{margin: 30px auto;}
+
+
+    .contact,.inputs{width: 100%;}
+    .inputs{margin-top: 80px;}
+}

@@ -1,0 +1,1514 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainimage1
+{
+    width: 100%;
+    background: url(../image/bgn-home-beach.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.navbar
+{
+
+    width: 100%;
+    display: flex;
+}
+.logo
+{
+    width: 50%;
+    padding:0px 100px 0px 100px;
+}
+.menus
+{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.address,.call-us,.write-us
+{
+    width: 33.33%;
+}
+.size
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.hidenavbar
+{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.recorder
+{
+    width:10%;
+    padding: 22px 0 0px 10px;
+    
+}
+.hidenavbar span
+{
+    width: 90%;
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
+
+
+
+
+.navbar2
+{
+    width: 100%;
+    display: flex;
+    opacity: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blank1,.home,.tours,.destinations,.pages,.blog,.elements,.shop,.blank3
+{
+  width: 8%;
+  text-align: center;
+  padding: 20px;
+  transition: 0.5s;
+  font-weight: 650;
+  position: relative;
+}
+.home
+{
+    background: white;
+    box-shadow: 0 0 5px black;
+    
+}
+.hover:hover
+{
+    background: white;
+    box-shadow: 0 0 5px black;
+
+}
+.border-hover-nav
+{
+    height: 2px;
+    width: 100%;
+    background: radial-gradient(#0aed8a,#1976bd);
+    position: absolute;
+    top: 97%;
+    left: 0;
+    transform: scale(0);
+    transition: 1s;
+}
+.hover:hover .border-hover-nav
+{
+  transform: scale(1);
+
+}
+.blank2
+{
+    width: 22%;
+}
+.bag,.serch
+{
+    width: 3%;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+.words
+{
+    width: 100%;
+    margin-top:70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.minititle
+{
+    width: 100%; 
+    text-align: center;
+    word-spacing: 5px;
+}
+.midiumtitle
+{
+    width: 100%;
+    font-size: 70px;
+    padding-top: 20px;
+    text-align: center;
+}
+.maxtitle
+{
+    width: 100%;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.imagehover
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 40px 100px 40px;
+}
+.imagehover .img1,.img2,.img3,.img4,.img5,.img6
+{
+    width: 14%;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    text-shadow:0 5px 5px black;
+}
+
+
+.img6
+{
+    margin-right: 0px;
+}
+.img1
+{
+  height: 200px ;
+  background:url(../image/img1.jpg);
+  background-size: cover;
+
+}
+.img2
+{
+    height: 200px;
+ background: url(../image/img2.jpg);
+ background-size: cover;
+}
+.img3
+{
+    height: 200px;
+    background: url(../image/img3.jpg);
+    background-size: cover;
+}
+.img4
+{
+
+    height: 200px;
+    background: url(../image/img4.jpg);
+    background-size: cover;
+}
+.img5
+{
+  
+    height: 200px;
+    background: url(../image/img5.jpg);
+    background-size: cover;
+    
+}
+.img6
+{
+  
+    height: 200px;
+    background:url(../image/img6.jpg);
+    background-size: cover;
+ 
+}
+.discount
+{
+    height: 30px;
+    width: 100px;
+    background: #1e06f7;
+    text-align: center;
+    line-height: 30px;
+    padding: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.offer
+{
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    line-height: 30px;
+    background: #34ed0a;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 3px;
+}
+.offerclose
+{
+    height: 30px;
+    width: 120px;
+    background: transparent;
+}
+del
+{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .img1-6hover */
+
+.img1:hover
+{
+  transform: translateY(-10px);
+  background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img1.jpg);
+  background-size:cover ;
+  box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img2:hover
+{
+  transform: translateY(-10px);
+  background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img2.jpg);
+  background-size:cover ;
+  box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img3:hover
+{
+  transform: translateY(-10px);
+  background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img3.jpg);
+  background-size:cover ;
+  box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img4:hover
+{
+  transform: translateY(-10px);
+  background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img4.jpg);
+  background-size:cover ;
+  box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img5:hover
+{
+  transform: translateY(-10px);
+  background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img5.jpg);
+  background-size:cover ;
+  box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img6:hover
+{
+  transform: translateY(-10px);
+  background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img6.jpg);
+  background-size:cover ;
+  box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+
+.border
+{    
+    width: 100%;
+    height:4px;
+    background:conic-gradient(#8dc645 0deg,
+    #8dc645 90deg,#0aed8a 90deg,#8dc645 180deg,#06cc97 180deg,#06bac0 270deg,#1976bd 270deg,#1976bd 360deg);
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: 0.4s;
+}
+.black:hover .border
+{
+    left: 0%;
+}
+
+/* /.img1-6hover */
+
+
+
+
+
+/* gradient */
+
+.gradient
+{
+
+    width: 100%;
+    background: linear-gradient(90deg,#1976bd,#0aed8a);
+    position: relative;
+}
+.inputs
+{
+    width: 80%;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: absolute;
+    top: -5%;
+    left: 10%;
+}
+.input1
+{
+    width: 25%;
+    padding: 20px 10px 20px 15px;
+}
+.input1 input
+{
+    height: 50px;
+    width: 95%;
+
+    padding-left: 10px;
+    
+}
+.input-color input
+{
+    background: blue;
+    color: white;
+    font-size: 22px;
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+.gradient .holiday
+{
+    padding-top: 70px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.yourway
+{
+    width: 60%;
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+.gradient h1
+{
+    padding: 20px 0px;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.gradient h1 span
+{
+    font-size: 80px;
+}
+.img7-13-main
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:40px ;
+}
+.img7main
+{
+    width: 29%;
+    margin: auto;
+    height: 500px;
+    background: url(../image/img7.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height:350px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    text-shadow:0 5px 5px black;
+}
+.img8-13main
+{
+
+    width: 70%;
+    text-align: center;
+    line-height:100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    text-shadow:0 5px 5px black;
+}
+.img8-13
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img8
+{
+    width: 32%;
+    height: 240px;
+    margin: 10px auto;
+    background: url(../image/img8.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.img9
+{
+    background: url(../image/img6.jpg);
+    background-size: 100% 100%;
+}
+.img10
+{
+    background: url(../image/img10.jpg);
+    background-size: 100% 100%;
+}
+.img11
+{
+    background: url(../image/image11.jpg);
+    background-size: 100% 100%;
+}
+.img12
+{
+    background: url(../image/image12.jpg);
+    background-size: 100% 100%;
+}
+.img13
+{
+    background: url(../image/img13.jpg);
+    background-size: 100% 100%;
+}
+.img7main:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img7.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img8:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img8.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img9:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img6.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img10:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img10.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img11:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/image11.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img12:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/image12.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+.img13:hover
+{
+    transform: translateY(-10px);
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)),url(../image/img13.jpg);
+    background-size:100% 100% ;
+    box-shadow: 10px 10px 15px rgb(186, 186, 193);
+}
+
+
+
+/* gradient */
+
+
+
+
+
+
+    
+
+
+
+.explore-more-tour
+{
+    height: 50px;
+    width: 200px;
+    background: #1976bd;
+    color: white;
+    text-align:center ;
+    line-height: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: 50px auto 50px auto;
+
+}
+.btnhover
+{
+    height: 50px;
+    width: 200px;
+    background: radial-gradient(#0aed8a,#1976bd);
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    transition: 1s;
+
+}
+.explore-more-tour:hover .btnhover
+{
+    top: 50%;
+    z-index: -1;
+}
+
+
+/* image7-13main hover */
+
+.information
+{
+
+    width: 100%;
+   
+
+}
+.tpo
+{
+   
+    width: 100%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tourism
+{
+  
+    width: 100%;
+    padding-top:20px ;
+}
+.premiun
+{
+
+    width: 100%;
+    font-weight: 900;
+    font-size: 60px;
+}
+.offers
+{
+    width: 100%;
+    font-size: 50px;
+}
+.paragraph
+{
+    font-size: 22px;
+    padding: 10px 250px;
+}
+
+
+
+
+
+.logooo
+{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.logos
+{
+    width: 80%;
+}
+.logo1-3,.logo4-6
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo1,.logo2,.logo3,.logo4,.logo5,.logo6
+{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo1-part
+{
+
+    width: 30%;
+    border: 1px solid;
+}
+.logo1-text
+{
+  width: 70%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 15px 5px;
+}
+.logo1-text :nth-child(1)
+{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+
+.reviews
+{
+    
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    text-align: center;
+}
+.client-awesome-review
+{
+    width: 60%;
+    margin:0px auto;
+}
+.client-say
+{
+
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.awesome-review
+{
+
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.review-content
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.review-member
+{
+
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.members
+{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.member1,.member2,.member3
+{
+    width: 33.33%;
+}
+.member-img,.member-img2,.member-img3
+{
+    height: 200px;
+    width: 200px;
+    background: url(../image/review1.jpg);
+    border-radius:50%;
+   background-size: 100% 100%;
+   margin-left:25% ;
+}
+.member-img2
+{
+    background: url(../image/review2.jpg);
+}
+.member-img3
+{
+    background: url(../image/review3.jpg);
+}
+.member-says
+{
+
+    width: 95%;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    margin-top: 30px;
+}
+.member-says :nth-child(1)
+{
+  font-size: 22px;
+  font-weight: 700;
+}
+.member-says :nth-child(2)
+{
+    padding:20px 50px;
+}
+
+
+
+
+.freedom
+{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.freedom-titals
+{
+    width: 60%;
+    margin: 0 auto;
+}
+.freedom-minititle
+{
+
+    width: 100%;
+    font-size: 20px;
+    padding-top: 60px;
+}
+.enjoy-freedom
+{
+    font-size: 60px;
+    padding-top: 20px;
+
+}
+.enjoy-freedom span
+{
+    font-weight: 900;
+    
+}
+.freedom-content
+{
+    font-size: 22px;
+}
+
+
+
+
+
+
+.images-scale
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-scale1,.img-scale2,.img-scale3,.img-scale4,.img-scale5
+{
+    width: 18%;
+    height: 300px;
+    margin-top: 50px;
+    transition: 1s;
+    position: relative;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+
+}
+.scale p
+{
+    text-align: center;
+    line-height: 300px;
+}
+.scale:hover p
+{
+    display: none;
+    text-shadow: 0 5px 5px rgb(30, 236, 247);
+
+}
+.img-scale1
+{
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)), url(../image/img14.jpg);
+    background-size: 100% 100%;
+ 
+}
+.img-scale2
+{
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)), url(../image/img15.jpg);
+    background-size: 100% 100%;
+}
+.img-scale3
+{
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)), url(../image/img16.jpg);
+    background-size: 100% 100%;
+}
+.img-scale4
+{
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)), url(../image/img17.jpg);
+    background-size: 100% 100%;
+}
+.img-scale5
+{
+    background:linear-gradient(rgba(0, 3,7, 0.7),rgb(0, 3, 7,0.7)), url(../image/img18.jpg);
+    background-size: 100% 100%;
+}
+
+/* img-scale hover */
+
+.img-scale1:hover
+{
+
+  background:url(../image/img14.jpg);
+  background-size: 120% 120%;
+
+}
+.img-scale2:hover
+{
+
+  background:url(../image/img15.jpg);
+  background-size: 120% 120%;
+
+}
+.img-scale3:hover
+{
+  background:url(../image/img16.jpg);
+  background-size: 120% 120%;
+
+}
+.img-scale4:hover
+{
+
+  background:url(../image/img17.jpg);
+  background-size: 120% 120%;
+
+}
+.img-scale5:hover
+{
+
+  background:url(../image/img18.jpg);
+  background-size: 120% 120%;
+
+}
+.scale:hover .border
+{
+    left: 0%;
+}
+
+/* /img-scale hover */
+
+.view-all
+{
+    height: 50px;
+    width: 200px;
+    background: #1976bd;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    color: white;
+
+    margin: 25px auto;
+}
+.view-all:hover .btnhover
+{
+    top: 50%;
+    z-index: -1;
+}
+
+
+
+
+
+.img20
+{
+    height: 600px;
+    width: 97%;
+    background: url(../image/img20.jpg);
+    background-size: 100% 100%;
+    margin:50px 20px 20px 20px;
+    position: relative;
+}
+.img20-info
+{
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 12%;
+  left: 48%;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  
+}
+
+.img20-info1 .content1
+{
+
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img20-info1 .content2
+{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.img20-info1 .content2 span
+{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img20-info1 .content3
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img20-info4
+{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.email
+{
+    width: 60%;
+    margin-right: 7%;
+}
+.email :focus
+{
+    outline: none;
+}
+.subscribe
+{
+    width: 30%;
+    height: 50px;
+    background:#1976bd;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.subscribe:hover .subscribe-btn-hover-effect
+{
+    top: 50%;
+    z-index: -1;
+}
+
+
+.email input
+{
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+
+
+
+.latest-news
+{
+    width: 100%;
+}
+.offer-news-word
+{
+
+    width: 60%;
+    margin:0 auto;
+ 
+}
+.latest-news .offer-here
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.latest-news .news
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+.latest-news .words
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+
+}
+
+
+.img21-28
+{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 0 5px 5px black;
+    color: white;
+    opacity: 1;
+    
+}
+
+.img21-24
+{
+  
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img21,.img22,.img23
+{
+    height: 300px;
+    width:18%;
+    position: relative;
+    transition: 1.2s;
+    overflow: hidden;
+
+}
+.img24
+{
+    height: 300px;
+    width: 38%;
+    position: relative;
+    transition: 1.2s;
+    overflow: hidden;
+}
+.img21
+{
+    background: url(../image/img21.jpg);
+    background-size: 100% 100%;
+}
+.img22
+{
+    background: url(../image/img22.jpg);
+    background-size: 100% 100%;
+}
+.img23
+{
+  background: url(../image/img23.jpg);
+  background-size: 100% 100%;
+}
+.img24
+{
+    
+ 
+    background: url(../image/img24.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+.img25-28
+{
+
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img26,.img27,.img28
+{
+    height: 300px;
+    width: 18%;
+    position: relative;
+    transition: 1s;
+    overflow: hidden;
+ 
+}
+.img25{
+    height: 300px;
+    width: 38%;
+    position: relative;
+    transition: 1.2s;
+    overflow: hidden;
+}
+.img25
+{
+    width: 38%;
+    height: 300px;
+    background: url(../image/img25.jpg);
+    background-size: 100% 100%;
+}
+.img26
+{
+  background: url(../image/img26.jpg);
+  background-size: 100% 100%;
+}
+.img27
+{
+  background: url(../image/img27.jpg);
+  background-size: 100% 100%;
+}
+.img28
+{
+  background: url(../image/img28.jpg);
+  background-size: 100% 100%;
+}
+
+/* img21-28-hover */
+.hover-effect
+{
+    height: 300px;
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.img21-28-hover:hover .hover-effect
+{
+    top: 50%;
+    opacity: 1;
+    box-shadow: 0 -50px 60px white;
+}
+.hover-title
+{
+    text-align: center;
+    line-height: 0px;
+    font-size: 22px;
+    text-shadow: 0 5px 5px black;
+    color: black;
+
+}
+.hover-detail
+{
+    color: black;
+    text-shadow: 0 0 0 white;
+    text-align: left;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-top:10px;
+
+
+}
+
+/* img21-28-hover */
+
+
+.read-more-btn
+{
+    height: 50px;
+    width: 200px;
+    background: #1976bd;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.read-more-btn:hover .btnhover
+{
+    top: 50%;
+    z-index: -1;
+}
+
+
+
+
+.contact-travelicious-title
+{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-travelicious-title :first-child
+{
+    
+    padding-top: 50px;
+    font-size: 50px;
+}
+.contact-travelicious-title span
+{
+    font-weight: 900;
+}
+.contact-travelicious-title .contact-travelicious-word
+{
+    font-size: 20px;
+    padding: 10px 50px;
+}
+
+
+
+.map
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    
+
+}
+
+.customer-booking
+{
+    width: 400px;
+    background:linear-gradient(90deg,#1976bd,#0aed8a);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    border: 10px solid rgba(254, 244, 244,0.1);
+
+}
+.booking-img
+{
+    height: 200px;
+    width: 350px;
+    background: url(../image/img18.jpg);
+    background-size: 100% 100%;
+    margin:20px auto;
+}
+.customer-box-border
+{
+
+    width: 90%;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+}
+.map h2
+{
+    text-shadow: 2px 0px 5px black;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.map .customer-box-border p
+{
+    text-align: left;
+    padding: 0px 0px 40px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.booking-address 
+{
+
+  width: 90%;
+  display: flex;
+  margin: 15px 0 0 28px;
+}
+.booking-address .add-part1 i
+{
+    font-size: 50px;
+    text-align: right;
+}
+
+
+.add-part1
+{
+    width: 20%;
+
+}
+.add-part2
+{
+    width: 80%;
+}
+.write-uss
+{
+    margin: 15px 0 30px 28px;
+}
+
+
+
+.mainfooter
+{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 30px 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.mainfooter .footer1,.footer2
+{
+    width:16.66%;
+    
+
+}
+.footer1
+{
+    padding-left: 20px;
+}
+
+.mainfooter .europe
+{
+    font-size: 22px;
+    font-weight: 900;
+}
+.country1
+{
+    padding: 5px 0px;
+   
+}
+.font-color
+{
+    color: gray;
+}
+.font-color:hover
+{
+    color: blue;
+}
+.footer2 p
+{
+    padding: 5px 0px;
+}
+.footer2 p input
+{
+    height: 50px;
+    width: 250px;
+    padding-left: 5px;
+    margin: 0px;
+    border: none;
+    box-shadow: 0 0 5px rgb(20, 17, 17);
+}
+input:focus
+{
+    outline: none;
+    
+}
+.subscribe-btn
+{
+    height: 50px;
+    width: 100px;
+    background:#1976bd;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: 10px auto;
+}
+.subscribe-btn-hover-effect
+{
+    height: 50px;
+    width: 100%;
+    background: radial-gradient(#0aed8a,#1976bd);
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    transition: 1s;
+    
+}
+.subscribe-btn:hover .subscribe-btn-hover-effect
+{
+    top: 50%;
+    z-index: -1;
+} 
+
+
+
+.down-header
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    
+}
+
+.down-header-part1
+{
+
+    width: 10%;
+    display: flex;
+    text-align: center;
+   
+}
+.down-header-part2
+{
+
+    width: 35%;
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.down-header-part3
+{
+
+    width: 55%;
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.down-about,.down-contact-us,.down-destination,.down-blog,.down-shop,.down-become-guide
+{
+    width:16.66%;
+    color: gray;
+
+}
+.down-blank
+{
+    width:40%;
+
+}
+.social-network
+{
+    width: 30%;
+    color: gray;
+
+}
+.down-facebook,.down-twitter,.down-gmail,.down-pintro,.down-youtube
+{
+    width: 6%;
+    color: gray;
+}
+.icon-color:hover
+{
+    color: rgb(70, 15, 252);
+}

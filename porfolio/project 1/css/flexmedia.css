@@ -1,0 +1,173 @@
+@media (max-width:900px)
+{
+    .navbar{display: none;}
+    .hidenavbar{opacity: 1;}
+    .navbar2{opacity: 0;}
+    .maxtitle{font-size : 70px;}
+    .title3{padding: 0 50px;}
+}
+
+
+@media (max-width:500px)
+{
+    .midiumtitle{font-size: 50px;}
+    .maxtitle{font-size : 60px;}
+    .imagehover .img1,.img2,.img3,.img4,.img5,.img6
+     {width:45%;}
+     .img3{display: none;}
+     .img4{display: none;}
+     .img5{display: none;}
+     .img6{display: none;}
+     .imagehover{margin-top: 50px;}
+    
+
+
+     .inputs
+     {
+        top:-3%;
+     }
+     .input1
+     {
+        width:50%;
+    }
+    .input-color input{padding-left: 5px;}
+     .yourway
+     { 
+        width: 100%;
+    }
+    .img8-13main{width: 100%;}
+    .gradient .holiday{padding-top: 150px;}
+     .gradient h1{font-size: 30px;}
+     .gradient h1 span{font-size: 50px;}
+     .img7main,.img8
+     {
+        width: 100%;
+        
+     }
+      
+     
+
+
+
+
+
+
+    .premiun{font-size: 50px;}
+    .paragraph{padding: 20px 20px;}
+    .logo1,.logo2,.logo3,.logo4,.logo5,.logo6
+    {width: 100%;}
+
+
+    
+    .review-content{padding: 20px 50px;font-size: 20px;}
+    .member1,.member2,.member3{width: 100%;}
+    .freedom-content{padding: 10px 20px;}
+    .img-scale1,.img-scale2,.img-scale3,.img-scale4,.img-scale5{width: 90%;margin: 10px;}
+    .btn2{margin-top: 10px;}
+
+
+
+    .freedom-titals{width: 100%;}
+
+    
+
+
+    .img20
+    {
+        margin: 30px 14px;
+    }
+    .img20-info
+    {
+        position: absolute;
+        top: 8%;
+        left:2%;
+        height: 400px;
+        width: 450px;
+    }
+
+
+    .email{width: 100%;margin: 0;}
+    .subscribe{width: 100%;margin-top: 30px;}
+
+
+    .client-awesome-review{width: 100%;}
+    .offer-news-word{width: 100%;}
+    .latest-news .news{font-size: 55px;}
+    .latest-news .words{margin-top: 5px; padding: 0px 35px;}
+   
+    
+ 
+    .img21,.img22,.img23
+    {
+        width: 90%;
+        margin: 10px 0px;
+    }
+    .img24
+    {
+        width: 90%;
+        margin: 10px 0px;
+        
+    }
+    .img26,.img27,.img28
+    {
+        width: 90%;
+        margin: 10px 0px;
+    }
+    .img25
+    {
+        width: 90%;
+        margin: 0px 0px 10px 0px;
+    }
+.hover-detail
+{
+    font-size: 20px;
+    word-spacing: 5px;
+
+}
+   
+
+
+    .contact-travelicious-title{width: 100%;}
+    .contact-travelicious-title .contact-travelicious-word
+    {
+        padding: 10px ;
+    }
+    .customer-booking{
+        top: 25%;
+        left: 0;
+        width: 100%;
+    }
+    .booking-img{width: 410px;}
+
+
+
+    .mainfooter .footer1
+    {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .footer2
+    {
+        width: 100%;
+        padding-left:10px;
+    }
+    .mainfooter .europe
+{
+    font-size: 22px;
+    text-align: center;
+}
+.newsletter
+{
+    text-align: center;
+}
+.footer2 p input
+{
+    width: 400px;
+    margin-left: 40px;
+}
+
+.down-blank{opacity: 0;width: 20%;}
+.down-header-part1{width: 100%;padding-left: 170px;}
+.down-header-part2{width: 100%;}
+.down-header-part3{width: 100%;}
+}
