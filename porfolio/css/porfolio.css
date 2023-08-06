@@ -268,7 +268,7 @@ h1 span
     height: 400px;
     width: 350px;
     border-radius: 10px;
-    margin: 10px 0 100px 70px;
+    margin: 0 auto 100px auto;
     position: relative;
     overflow: hidden;
 }
